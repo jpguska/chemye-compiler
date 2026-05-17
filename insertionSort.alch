@@ -1,0 +1,30 @@
+Arcanum: Insertion Sort
+
+inteiro v[5].
+inteiro i.
+inteiro j.
+
+
+PRONUNTIARE|:"Digite 5 numeros\n":|.
+
+CIRCA|:i ACCIPIT 0. i < 5. i++:|[:
+    PRONUNTIARE|:"%d: ", i:|.
+    INSCULPIRE|:v[i]:|.
+    PRONUNTIARE|:"\n":|.
+:]
+
+CIRCA |: i ACCIPIT 0. i < 5. i++ :| [:
+    inteiro key.
+    key ACCIPIT v[i].
+    j ACCIPIT i - 1.
+    ITERARE|:j >= 0 ET v[j] > key:|[:
+        v[j + 1] ACCIPIT v[j].
+        j ACCIPIT j - 1.
+    :]
+    v[j+1] ACCIPIT key.
+:]
+
+
+CIRCA |: i ACCIPIT 0. i < 5. i++ :| [:
+    PRONUNTIARE|: "\n%d\n", v[i] :|.
+:]

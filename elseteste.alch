@@ -1,0 +1,25 @@
+Arcanum: Teste ELSE
+
+inteiro x.
+inteiro y.
+
+x ACCIPIT 10.
+y ACCIPIT 20.
+
+PRONUNTIARE |:"Teste 1: IF verdadeiro\n":|.
+
+SIVERITAS |: x < y :| [:
+    PRONUNTIARE |:"Entrou no IF (1)\n":|.
+:] ALITER |:| [:
+    PRONUNTIARE |:"Entrou no ELSE (1)\n":|.
+:]
+
+PRONUNTIARE |:"Teste 2: IF falso\n":|.
+
+SIVERITAS |: x > y :| [:
+    PRONUNTIARE |:"Entrou no IF (2)\n":|.
+:] ALITER |:| [:
+    PRONUNTIARE |:"Entrou no ELSE (2)\n":|.
+:]
+
+REVERSIO 0.

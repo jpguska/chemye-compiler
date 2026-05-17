@@ -1,0 +1,24 @@
+Arcanum: Fibonacci
+
+inteiro i.
+inteiro a.
+inteiro b.
+inteiro val.
+
+a ACCIPIT 0.
+b ACCIPIT 1.
+
+
+PRONUNTIARE|: "Digite um numero " :|.
+INSCULPIRE|: val :|.
+
+CIRCA |: i ACCIPIT 0. i < val. i ++ :| [:
+    inteiro temp.
+    temp ACCIPIT a + b.
+    b ACCIPIT a.
+    a ACCIPIT temp.
+    PRONUNTIARE|:"%d\n", b:|.
+:]
+
+PRONUNTIARE|: "Valor final: " :|.
+PRONUNTIARE|: "%d\n", b :|

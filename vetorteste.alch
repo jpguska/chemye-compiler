@@ -1,0 +1,27 @@
+Arcanum: Teste Vetores Simples
+
+inteiro v[5].
+inteiro a.
+inteiro b.
+inteiro c.
+
+v[0] ACCIPIT 10.
+v[1] ACCIPIT 20.
+v[2] ACCIPIT 30.
+v[3] ACCIPIT 40.
+v[4] ACCIPIT 50.
+
+a ACCIPIT v[0].
+b ACCIPIT v[2].
+c ACCIPIT v[4].
+
+PRONUNTIARE |:"Primeiro elemento:":|.
+PRONUNTIARE |:"%d\n", a:|.
+
+PRONUNTIARE |:"Terceiro elemento:":|.
+PRONUNTIARE |:"%d\n", b:|.
+
+PRONUNTIARE |:"Quinto elemento:":|.
+PRONUNTIARE |:"%d\n", c:|.
+
+REVERSIO 0.

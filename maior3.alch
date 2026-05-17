@@ -1,0 +1,27 @@
+Arcanum: Exemplo de maior de três números
+inteiro a.
+inteiro b.
+inteiro c.
+inteiro maior.
+
+PRONUNTIARE |:"Insira o primeiro numero":|.
+INSCULPIRE |: a :|.
+PRONUNTIARE |:"Insira o segundo numero":|.
+INSCULPIRE |: b :|.
+PRONUNTIARE |:"Insira o terceiro numero":|.
+INSCULPIRE |: c :|.
+
+maior ACCIPIT a.
+
+SIVERITAS |: b > a :| [:
+    maior ACCIPIT b.
+:] 
+
+SIVERITAS |: c > maior :| [:
+    maior ACCIPIT c.
+:]
+
+PRONUNTIARE |:"O maior numero e":|.
+PRONUNTIARE |:"%d", maior:|.
+
+REVERSIO 0.
